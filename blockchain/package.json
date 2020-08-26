@@ -1,0 +1,8 @@
+{
+  "name": "decentralized-password-manager",
+  "version": "0.1.0",
+  "scripts": {
+    "deploy-local": "truffle migrate --reset && rm -rf ../frontend/src/contracts && mv build/contracts ../frontend/src/contracts && rm -rf build",
+    "deploy-ropsten": "truffle compile && truffle deploy --network ropsten && rm -rf ../frontend/src/contracts && mv build/contracts ../frontend/src/contracts && rm -rf build"
+  }
+}
