@@ -11,13 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79ef389-bf2e-41a9-adcd-2e5ee10145b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/contracts/PasswordManager.sol" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/contracts/PasswordManager.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/NewPasswordModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/NewPasswordModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/PasswordManager.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/contracts/PasswordManager.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.example.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <workItem from="1598192562262" duration="2267000" />
       <workItem from="1598200705343" duration="11219000" />
       <workItem from="1598221254707" duration="1302000" />
-      <workItem from="1598279740473" duration="32437000" />
+      <workItem from="1598279740473" duration="32802000" />
     </task>
     <servers />
   </component>
