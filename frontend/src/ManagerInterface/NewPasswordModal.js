@@ -19,7 +19,7 @@ function NewPasswordModal(props) {
             setNoMatch(false)
             try {
                 let encryptedPassword = CryptoJS.AES.encrypt(event.target.password.value, process.env.REACT_APP_PASSPHRASE).toString()
-                await contract.methods[`addService(string,string)`](event.target.service.value, encryptedPassword, {from: window.ethereum.selectedAddress})
+                await contract.addService(event.target.service.value, encryptedPassword, {from: window.ethereum.selectedAddress})
                 added(prevCount => prevCount + 1)
                 setUpdateSuccess(true)
             } catch (e) {

@@ -11,7 +11,6 @@ contract PasswordManager {
 
     // Create a struct to represent a user and their passwords
     struct User {
-        string masterPassword;
         string[] serviceArray;
         mapping(string => string) passwords;
         mapping(string => uint) serviceToIndex;
@@ -57,7 +56,6 @@ contract PasswordManager {
 
     /* Return all services based on the current sender */
     function returnServices() public view returns(string[] memory) {
-        require(users[msg.sender].serviceArray.length > 0, "No services");
         return users[msg.sender].serviceArray;
     }
 
@@ -65,4 +63,5 @@ contract PasswordManager {
     function retrievePassword(string memory _service) public view returns(string memory) {
         return users[msg.sender].passwords[_service];
     }
+
 }

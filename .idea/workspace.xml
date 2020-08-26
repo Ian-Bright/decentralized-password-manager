@@ -11,43 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79ef389-bf2e-41a9-adcd-2e5ee10145b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/decentralized-password-manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/contracts/Migrations.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/contracts/PasswordManager.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/migrations/1_initial_migration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/migrations/2_deploy_contracts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/truffle-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/ChangePasswordModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/NewPasswordModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/contracts/Migrations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/contracts/PasswordManager.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/contracts/PasswordManager.sol" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/contracts/PasswordManager.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/NewPasswordModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/NewPasswordModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ManagerInterface/PasswordManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/contracts/PasswordManager.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/contracts/PasswordManager.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +81,7 @@
       <workItem from="1598192562262" duration="2267000" />
       <workItem from="1598200705343" duration="11219000" />
       <workItem from="1598221254707" duration="1302000" />
-      <workItem from="1598279740473" duration="27469000" />
+      <workItem from="1598279740473" duration="32437000" />
     </task>
     <servers />
   </component>

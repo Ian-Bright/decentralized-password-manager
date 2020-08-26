@@ -21,25 +21,21 @@ function PasswordManager() {
         let TruffleContract = require("@truffle/contract")
         let abi = require('../contracts/PasswordManager.json')
         let contract = TruffleContract(abi)
-        contract.setProvider('http://127.0.0.1:7545')
-        let instance = await contract.at(abi.networks[5777].address)
+        contract.setProvider(window.ethereum)
+        let instance = await contract.at(abi.networks[window.ethereum.networkVersion].address)
         setContract(instance)
     }
 
     /* Load services that a user is subscribed to */
     const loadServices = async () => {
-        try {
-            let services = await contract.methods['returnServices()']({from: window.ethereum.selectedAddress})
+            let services = await contract.returnServices({from: window.ethereum.selectedAddress})
             setServices(services.sort())
-        } catch (e) {
-            setServices([])
-        }
     }
 
     /* Load passwords associated with subscribed service */
     const loadPasswords = () => {
         let passes = services.map(async (service) => {
-            return await contract.methods['retrievePassword(string)'](service, {from: window.ethereum.selectedAddress})
+            return await contract.retrievePassword(service, {from: window.ethereum.selectedAddress})
         })
         setPasswords(passes)
     }

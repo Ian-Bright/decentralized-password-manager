@@ -20,8 +20,8 @@ function PasswordList({contract, services, serviceAdded, passwords, passwordUpda
 
     /* Function to remove a service / password */
     const removePassword = async (service) => {
-        await contract.methods['removeService(string)'](service, {from: window.ethereum.selectedAddress})
-        serviceAdded(prevCount => prevCount + 1)
+        await contract.removeService(service, {from: window.ethereum.selectedAddress})
+        services.length == 1 ? serviceAdded(false) : serviceAdded(prevCount => prevCount + 1)
     }
 
     /*  Create a list of available services with respect to user */
